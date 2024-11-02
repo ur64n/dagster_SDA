@@ -1,3 +1,15 @@
+# Preview
+
+The course focused on asset-aware orchestrators and their role in simplifying data pipeline management. An open-source orchestrator, Dagster, was used to build a sample data pipeline.
+
+Data from NYC OpenData served as the basis for constructing a pipeline that:
+
+- Extracts data stored in Parquet files from NYC OpenData,
+- Loads it into a DuckDB database,
+- Transforms and prepares it for analysis,
+- Creates a visualization using the processed data.
+- Assets, Jobs, Shedules, Partitions, Sensors.
+
 # dagster_university
 
 This is a [Dagster](https://dagster.io/) project made to accompany Dagster University coursework.
